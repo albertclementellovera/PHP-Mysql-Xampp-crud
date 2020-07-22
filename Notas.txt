@@ -45,23 +45,3 @@ UTILIZAMOS >>>>>>> BOOTSTRAP  <<<<<<<<< para incorporar a HTML estilos de CSS
 
 UTILIZAMOS >>>>>>>>>>>>>>> ICONOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 desde https://fontawesome.com/6?next=%2F (es de pago asi que copio lo que cita en el video)
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>X<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-POSICION 48:18
-
-github	albertclementellovera		Aclguate1954$
