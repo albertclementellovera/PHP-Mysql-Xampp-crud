@@ -1,0 +1,67 @@
+https://www.youtube.com/watch?v=pn2v9lPakHQ&feature=emb_title
+PHP Mysql CRUD 
+my app >>>>  C:\xampp\htdocs\php_crud_mysql
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>VVVvvvvvvVVV<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+															APP FINALIZADA
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>VVVvvvvvvVVV<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ 
+Las aplicaciones se guardan en el directorio C:\xampp\htdocs
+
+Se requiere instalacion previa de xampp (herramienta de Apache que incluye servidor de web Apache, MariaDB, PHP y Perl  {Xampp e de apacha y wamserver es de Windows}) version 7.4.8
+
+Para trabajar con servidor APACHE + Mysql + PHP + javascript
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>CREAR BD MYSQL <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+abrimos http://localhost:80/phpmyadmin/		abre la interface grafica de phpmyadmin/
+	Creamos DB php_mysql_crud
+	Creamos la primera tabla llamada 	task  de 4 columnas
+	Nombre de las columnas:
+		id			INT		 11	 predeterminado(nada)	indeice(PRIMARY) marca A_I(autoincremental)	
+		title		VARCHAR	255	 predeterminado(nada)
+		description	TEXT		 predeterminado(nada)
+		created_at	TIMESTAMP	 predeterminado(CURRENT_TIME)
+	(Guardar)
+	
+>>>>CONEXION desde  db.php
+	
+	mysqli_connect{
+    'localhost',			// punto de conexion
+    'root',					// usuario (root por defecto)
+    '',						// pasword ('' por defecto)
+    'php_mysql_crud'		// BD a conectar
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>OOOOoooOOOO <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+UTILIZAMOS >>>>>>> BOOTSTRAP  <<<<<<<<< para incorporar a HTML estilos de CSS  
+	https://getbootstrap.com/  
+		Le damos a download y buscamos el apartado  >>> BootstrapCDN <<<
+		copiamos todo lo correspondiente a <link......... y lo transportamos a la parte de HTML despues de Title
+		copiamos luego todo lo correspondiente a <script......... y lo transportamos a la parte de HTML dentro de Body
+		requiere otros dos scripts que encontramos debajo del anterior 
+		correspondiente al jquery y al Popper.js
+		los copiamos y los ubicamos debajo del script copiado anteriormente
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ooooooOOOooooooooo<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+UTILIZAMOS >>>>>>>>>>>>>>> ICONOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+desde https://fontawesome.com/6?next=%2F (es de pago asi que copio lo que cita en el video)
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>X<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+POSICION 48:18
+
+github	albertclementellovera		Aclguate1954$
